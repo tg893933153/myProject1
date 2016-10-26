@@ -13,7 +13,7 @@
         <script src="libs/jquery-2.2.3.js" type="text/javascript" charset="utf-8"></script>
     </head>
     <body ng-app="myApp">
-    	
+
 		<div class="index-header" >
 			<header ng-controller="headerCtrl">
 				<i class="fa fa-bars" id="header-openmenu" ng-click="show()"></i>
@@ -23,7 +23,7 @@
 				</div>
 			</header>
 		</div>
-		
+
 		<div class="nav" ng-controller="headerCtrl">
 		    <a class="close-menu" ng-click="hide()">×</a>
 		    <div class="chaxun">
@@ -44,7 +44,7 @@
 				    </a>
 		        </li>
 		    </ul>
-		    
+
 		    <ul>
 		        <li>
 		        	<a href="#/article" ng-click="hide()">
@@ -59,7 +59,7 @@
 		        	</a>
 		        </li>
 		         <li>
-		        	<a href="#/fx" ng-click="hide()">
+		        	<a href="#/discover" ng-click="hide()">
 		        		<i class="fa fa-compass"></i>
 		        		<span>发现</span>
 		        	</a>
@@ -77,7 +77,7 @@
 		        	</a>
 		        </li>
 		         <li>
-		        	<a href="#/xz" ng-click="hide()">
+		        	<a href="#/group" ng-click="hide()">
 		        		<i class="fa fa-tint"></i>
 		        		<span>小组</span>
 		        	</a>
@@ -86,21 +86,21 @@
 		    <div class="login">
 		        <span>注册/登录</span>
 		    </div>
-		    
-		    
-		    
+
+
+
 		</div>
-		
-		
+
+
         <!-- AngularJS中提供了ng-view指令，为了展示路由切换的页面 -->
         <div ng-view></div>
-        
+
     </body>
     <script src="index.js" type="text/javascript" charset="utf-8"></script>
     <script src="router.js" type="text/javascript" charset="utf-8"></script>
     <script src="article/js/article.js" type="text/javascript" charset="utf-8"></script>
     <script src="home/js/home.js" type="text/javascript" charset="utf-8"></script>
     <script src="shop/js/shop.js" type="text/javascript" charset="utf-8"></script>
-    <!--<script src="gwc/js/gwc.js" charset="utf-8"></script>-->
-    <!--<script src="home/js/home.js" charset="utf-8"></script>-->
+    <script src="discover/js/discover.js" charset="utf-8"></script>
+    <script src="group/js/group.js" charset="utf-8"></script>
 </html>

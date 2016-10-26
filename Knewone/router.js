@@ -19,6 +19,14 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl: './shop/html/shop.html',
 		controller: 'shopCtrl'
 	})
+	.when('/discover',{
+		templateUrl: './discover/html/discover.html',
+		controller: 'discoverCtrl'
+	})
+	.when('/group',{
+		templateUrl: './group/html/group.html',
+		controller: 'groupCtrl'
+	})
 	.otherwise({
 		redirectTo: '/' //重定向
 	});
