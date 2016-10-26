@@ -1,0 +1,139 @@
+.article{
+	background: url(../images/16088d521b7de19a989bbcfaf32c6005.jpg) no-repeat;
+	background-size: cover;
+	background-color: #141414;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 45px;
+    background-size: 100%;
+    padding-top: 45px;
+}
+/*.article:before{
+	display: block;
+	content: "";
+	width: 100%;
+	height: 2.813rem;
+	background-color: #AAAAAA;
+}*/
+.article .article-header{
+	width: 90%;
+	margin: 0 5%;
+	height: 9.563rem;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-end;
+	
+}
+.article .article-header p{
+	font-size: 1.625rem;
+	color: #FFFFFF;
+	margin: 1rem 1rem;
+}
+.article .article-header p>em{
+	color: #61ABDE;
+}
+.article .article-header span{
+	margin-right: 1rem;
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	width: 6.563rem;
+	height: 2.125rem;
+	line-height: 2.125rem;
+	border-radius: 1rem;
+	background-color: #EF7E4B;
+}
+
+.article .article-nav{
+	margin-top: .5rem;
+	height: 4.188rem;
+}
+.article .article-nav ul{
+	width: 90%;
+	margin: 0 5%;
+	display: flex;
+	justify-content: center;
+	font-size: 1rem;
+	
+}
+.article .article-nav ul li{
+	width: 20%;
+	text-align: center;
+	padding: .3rem 0;
+	color: #FFFFFF;
+}
+.article .article-nav ul .color{
+	color: #47B2E2;
+	border-bottom: 3px solid #47B2E2;
+}
+
+.article .article-list{
+	width: 100%;
+}
+.article .article-list section{
+	
+	
+}
+.article .article-list section ul{
+	
+}
+.article .article-list section ul li{
+	position: relative;
+	width: 100%;
+	margin-bottom: 2rem;
+	background-color: #F7F7F7;
+}
+.article .article-list section ul li>img{
+	width: 100%;
+	height: 15rem;
+}
+.article .article-list section ul li>h3{
+	position: absolute;
+	z-index: 1;
+	top: 12.6rem;
+	width: 100%;
+	height: 2.375rem;
+	line-height: 2.375rem;
+	text-indent: 2rem;
+	color: #588cc7;
+	background-color: rgba(10,10,10,.5);
+}
+.article .article-list section ul li>section{
+	width: 90%;
+	margin: .5rem 5%;
+	font-size: 1.2rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.article .article-list section ul li>span{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 90%;
+	margin: .5rem 5%;
+}
+.article .article-list section ul li>span>img{
+	height: 1.875rem;
+	width: 1.875rem;
+	border-radius: 50%;
+}
+
+
+
+.article>p{
+	display: block;
+	text-align: center;
+	width: 90%;
+	height: 2.625rem;
+	margin: 1rem 5%;
+}
+.article .goTop{
+	width: 90%;
+	height: 2.625rem;
+	margin: 1rem 5%;
+	text-align: right;
+	
+}

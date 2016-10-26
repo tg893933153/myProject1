@@ -1,0 +1,54 @@
+.shop{
+	background-color: #EBECED;
+}
+.shop:before{
+	display: block;
+	content: "";
+	width: 100%;
+	height: 2.813rem;
+	/*background-color: #AAAAAA;*/
+}
+
+.shop ul li{
+	background-color: #FFFFFF;
+	margin-bottom: 1rem;
+}
+.shop ul li img{
+	width: 100%;
+	height: 15rem;
+}
+.shop ul li>p{
+	display: block;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	width: 85%;
+	margin:  0 7.5%;
+	color: #000000;
+}
+.shop ul li>section{
+	height: 1.875rem;
+	width: 85%;
+	margin:  0 7.5%;
+}
+.shop ul li>section>span{
+	text-decoration: line-through;
+	color: #47B2E2;
+}
+
+
+
+
+.shop>p{
+	display: block;
+	text-align: center;
+	width: 90%;
+	height: 2.625rem;
+	margin: 1rem 5%;
+}
+.shop .goTop{
+	width: 90%;
+	height: 2.625rem;
+	margin: 1rem 5%;
+	text-align: right;
+	
+}

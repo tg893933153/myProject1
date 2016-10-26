@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>Knewone</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="libs/font-awesome-4.6.3/css/font-awesome.css" />
+        <link rel="stylesheet" type="text/css" href="libs/reset.css"/>
+        <script src="libs/angular.js" charset="utf-8"></script>
+        <script src="libs/angular-route.js" charset="utf-8"></script>
+        <script src="libs/angular-css.js" charset="utf-8"></script>
+        <script src="libs/jquery-2.2.3.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body ng-app="myApp">
+    	
+		<div class="index-header" >
+			<header ng-controller="headerCtrl">
+				<i class="fa fa-bars" id="header-openmenu" ng-click="show()"></i>
+				<a><img src="libs/logo.png"/></a>
+				<div class="btns">
+				  <a href="">注册|登录 </a>
+				</div>
+			</header>
+		</div>
+		
+		<div class="nav" ng-controller="headerCtrl">
+		    <a class="close-menu" ng-click="hide()">×</a>
+		    <div class="chaxun">
+		        <i class="fa fa-search"></i>
+		        <input type="text" name="" id="" value="" placeholder="搜索KnewOne"/>
+		    </div>
+		    <ul>
+		        <li>
+		        	<a href="#/" class="index-home" ng-click="hide()">
+				    	<i class="fa fa-home"></i>首页
+				    	<!--<span style="font-size: 14px;">首页</span>-->
+				    </a>
+		        </li>
+		        <li>
+		        	<a href="#/" class="help">
+				    	<i class="fa fa-question"></i>
+				    	<p>寻求帮助</p>
+				    </a>
+		        </li>
+		    </ul>
+		    
+		    <ul>
+		        <li>
+		        	<a href="#/article" ng-click="hide()">
+		        		<i class="fa fa-book"></i>
+		        		<span>文章</span>
+		        	</a>
+		        </li>
+		         <li>
+		        	<a href="#/cp" ng-click="hide()">
+		        		<i class="fa fa-tags"></i>
+		        		<span>产品</span>
+		        	</a>
+		        </li>
+		         <li>
+		        	<a href="#/fx" ng-click="hide()">
+		        		<i class="fa fa-compass"></i>
+		        		<span>发现</span>
+		        	</a>
+		        </li>
+		         <li>
+		        	<a href="#/hd" ng-click="hide()">
+		        		<i class="fa fa-bullhorn"></i>
+		        		<span>活动</span>
+		        	</a>
+		        </li>
+		         <li>
+		        	<a href="#/shop" ng-click="hide()">
+		        		<i class="fa fa-gift"></i>
+		        		<span>商店</span>
+		        	</a>
+		        </li>
+		         <li>
+		        	<a href="#/xz" ng-click="hide()">
+		        		<i class="fa fa-tint"></i>
+		        		<span>小组</span>
+		        	</a>
+		        </li>
+		    </ul>
+		    <div class="login">
+		        <span>注册/登录</span>
+		    </div>
+		    
+		    
+		    
+		</div>
+		
+		
+        <!-- AngularJS中提供了ng-view指令，为了展示路由切换的页面 -->
+        <div ng-view></div>
+        
+    </body>
+    <script src="index.js" type="text/javascript" charset="utf-8"></script>
+    <script src="router.js" type="text/javascript" charset="utf-8"></script>
+    <script src="article/js/article.js" type="text/javascript" charset="utf-8"></script>
+    <script src="home/js/home.js" type="text/javascript" charset="utf-8"></script>
+    <script src="shop/js/shop.js" type="text/javascript" charset="utf-8"></script>
+    <!--<script src="gwc/js/gwc.js" charset="utf-8"></script>-->
+    <!--<script src="home/js/home.js" charset="utf-8"></script>-->
+</html>
